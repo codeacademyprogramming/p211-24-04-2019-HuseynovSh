@@ -1,23 +1,27 @@
-.col {
+.page-section{
+    padding: 50px 0;
+}
+
+#about .col {
     margin: 0% 13%;
     padding: 8rem
 }
 
-.col h2 {
+#about .col h2 {
     font-family: 'Merriweather Sans', sans-serif;
     color: #fff;
     font-size: 2rem;
     font-weight: 500
 }
 
-.col p {
+#about .col p {
     font-family: 'Merriweather', serif;
     color: rgba(255, 255, 255, .5);
     margin-bottom: 4rem;
     font-size: 18px;
 }
 
-.col a {
+#about .col a {
     font-family: 'Merriweather Sans', sans-serif;
     padding: 1.25rem 2.25rem;
     font-size: .85rem;
@@ -29,7 +33,7 @@
     background-color: #f8f9fa;
 }
 
-.col hr {
+#about .col hr {
     color: #fff;
     max-width: 3.25rem;
     border-width: .2rem;
@@ -37,11 +41,11 @@
     margin-bottom: 1.5rem
 }
 
-.row {
+#about .row {
     text-align: center;
 }
 
-.container {
+#about .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -49,3 +53,149 @@
     margin-left: auto;
     background-color: #f4623a;
 }
+
+#services .container{
+    background-color: #fff
+}
+#services .text-center {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 80px;
+}
+
+#services .container {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#services .text-muted {
+    font-family: 'Merriweather', serif;
+    color: #6c757d;
+}
+
+#services .row {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#services .mt-5 {
+    width: 20%;
+    text-align: center
+}
+
+#services .divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f4623a;
+    margin-bottom: 4.5rem
+    
+}
+
+#services .mt-5 i {
+    font-size: 4em;
+    color: #f4623a
+}
+
+#services .mt-5 h3 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+#services .mt-5 p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#Download .container {
+    text-align: center
+}
+
+D#Download .page-sectionbg-darktext-white {
+    padding: 8rem 0;
+    background-color: #343a40;
+}
+
+#Download .container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 5rem;
+}
+
+#Download .container a {
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+
+
+#contact .container{
+    text-align: center;
+    justify-content: center
+}
+
+#contact .col-lg-8 h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+
+}
+
+#contact .col-lg-8 p{
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem
+}
+
+#contact .divider{
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f4623a;
+}
+
+
+
+#contact .text-muted{
+    color: #6c757d;
+    width: 75%;
+    margin: 45px 10%
+    
+    
+}
+
+#contact .row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: 45px 13%
+    
+    
+    
+}
+
+#contact .col i{
+
+    font-size: 3em;
+    color: #6c757d;
+    margin: 2rem 0rem
+}
+
+#contact .d-block{
+    color: #f4623a;
+    text-decoration: none;
+    
+}
+
+
+
+
+
